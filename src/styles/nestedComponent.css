@@ -1,0 +1,148 @@
+
+.nested-component {
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.nested-component h1 {
+    text-align: center;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+}
+
+.nested-component form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.nested-component textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 10px;
+    resize: vertical;
+    min-height: 60px;
+}
+
+.nested-component button {
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: 'Arial', sans-serif;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.nested-component button:hover {
+    background-color: #0056b3;
+}
+
+.comment-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.comment-list li {
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.comment-list p {
+    margin: 5px 0;
+    color: #333;
+}
+
+.comment-list small {
+    color: #666;
+    font-size: 12px;
+}
+
+.comment-list .comment-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.comment-list .comment-actions button {
+    background-color: transparent;
+    color: #007bff;
+    padding: 4px 8px;
+    font-size: 12px;
+    border: 1px solid #007bff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.comment-list .comment-actions button:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+.comment-list .comment-actions .MuiSvgIcon-root {
+    cursor: pointer;
+    color: #007bff;
+    transition: color 0.2s ease-in-out;
+}
+
+.comment-list .comment-actions .MuiSvgIcon-root:hover {
+    color: #0056b3;
+}
+
+.reply-form {
+    margin-top: 10px;
+    padding-left: 20px;
+    border-left: 2px solid #eee;
+}
+
+.reply-form textarea {
+    width: 90%;
+    margin-bottom: 8px;
+}
+
+.reply-list {
+    list-style-type: none;
+    padding-left: 20px;
+    margin-top: 10px;
+    border-left: 2px solid #eee;
+}
+
+.reply-list li {
+    margin-bottom: 10px;
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.reply-list p {
+    margin: 5px 0;
+}
+
+.reply-list small {
+    color: #666;
+    font-size: 11px;
+}
+
+.reply-list .MuiSvgIcon-root {
+    cursor: pointer;
+    color: #007bff;
+    transition: color 0.2s ease-in-out;
+}
+
+.reply-list .MuiSvgIcon-root:hover {
+    color: #0056b3;
+}
