@@ -12,7 +12,9 @@ import TrafficLight from "./components/TrafficLight";
 import TabComponent from "./components/TabComponent";
 import Stepper from "./components/Stepper";
 import AppNestedComponent from "./components/AppNestedComponent";
+
 import Test from "./components/Test";
+import MainTest from "./components/MainTest";
 
 function App() {
   return (
@@ -29,7 +31,8 @@ function App() {
       {/* <FileExplorer/> */}
       {/* <TabComponent/> */}
       {/* <Stepper/> */}
-      <Test/>
+      {/* <Test/> */}
+      <MainTest/>
     </div>
   );
 }

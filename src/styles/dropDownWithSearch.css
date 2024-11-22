@@ -1,0 +1,12 @@
+h2{
+    border: 1px solid black;
+    width: 25%;
+    background-color: rgb(151, 149, 149);
+}
+.inner-dropdown{
+    width: 20%;
+}
+.active{
+    background-color: aqua
+    ;
+}
