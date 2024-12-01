@@ -1,9 +1,8 @@
 import React, { useEffect, useState } from 'react'
-import DropDownWithSearch from './DropDownWithSearch';
+import FaqComponent from './FaqComponent';
 
-function MainDropDown() {
+function MainFaqComponent() {
  const [data,setData]=useState([])
- const[selectedData,setSelectedData]=useState([]);
 
  const fetchData= async()=>{
      await fetch("https://dummyjson.com/products")
@@ -16,17 +15,12 @@ function MainDropDown() {
  useEffect(()=>{
     fetchData(); 
  },[])
-console.log(selectedData,"seleted Data");
 
   return (
    <>
-   <DropDownWithSearch
-   setSelectedData={setSelectedData}
-   data={data}
-   isMulti
-   />
+   <FaqComponent data={data}/>
    </>
   )
 }
 
-export default MainDropDown
+export default MainFaqComponent

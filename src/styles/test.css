@@ -1,0 +1,24 @@
+.tab{
+    display: flex;
+    border: 1px solid black;
+    width: 10%;
+    justify-content: end;
+    text-align: center;
+}
+
+.main-tab{
+    display: flex;
+  
+}
+.tabactive{
+    background-color: rgb(141, 141, 144);
+    display: flex;
+    border: 1px solid black;
+    width: 10%;
+    justify-content: end;
+    text-align: center;
+}
+
+.main{
+    align-items: center;
+}

@@ -10,3 +10,6 @@ h2{
     background-color: aqua
     ;
 }
+.multi-select-value{
+    display: flex;
+}

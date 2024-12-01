@@ -1,0 +1,17 @@
+.grid-cell{
+    border: 1px solid black;
+    width: 3%;
+    padding: 3px;
+    align-items: center;
+    text-align: center;
+    margin: 1px;
+}
+.grid-cell-selected{
+    border: 1px solid black;
+    width: 3%;
+    padding: 3px;
+    align-items: center;
+    text-align: center;
+    margin: 1px;
+    background-color: green;
+}

@@ -1,0 +1,21 @@
+.main{
+    display: flex;
+}
+.tab-content{
+    padding: 8px;
+}
+.tab-content h2{
+    border-bottom: 2px solid black;
+}
+
+p{
+   text-align: center;
+}
+
+.tab-content-active{
+    border-bottom: 2px solid rgb(194, 14, 14);
+}
+.tab-content-disable{
+    border-bottom: 2px solid rgb(89, 99, 112);
+    background-color: rgb(132, 132, 133);
+}

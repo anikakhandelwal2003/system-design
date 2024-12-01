@@ -12,14 +12,22 @@ import TrafficLight from "./components/TrafficLight";
 import TabComponent from "./components/TabComponent";
 import Stepper from "./components/Stepper";
 import AppNestedComponent from "./components/AppNestedComponent";
-
+import DiceRollingApp from "./components/DiceRollingApp";
+import ToDo from "./components/ToDo";
+import FormValidation from "./components/FormValidation";
+import LoginOtp from "./components/LoginOtp";
 import Test from "./components/Test";
-import MainTest from "./components/MainTest";
+import TabCommonComponent from "./components/TabCommonComponent";
+import DropDownWithSearch from "./components/DropDownWithSearch";
+import MainTest from "./components/MainDropDown";
+import FaqComponent from "./components/FaqComponent";
+import MainFaqComponent from "./components/MainFaqComponent";
+import GridComponent from "./components/GridComponent";
 
 function App() {
   return (
     <div>
-       {/* <ToastMessage/> */}
+      {/* <ToastMessage/> */}
       {/* <AutoCompleteSearch/> */}
       {/* <AppNestedComponent/>  */}
       {/* <PaginationComponent/> */}
@@ -31,8 +39,15 @@ function App() {
       {/* <FileExplorer/> */}
       {/* <TabComponent/> */}
       {/* <Stepper/> */}
+      {/* <DiceRollingApp/> */}
+      {/* <ToDo/> */}
+      {/* <FormValidation/> */}
+      {/* <LoginOtp/> */}
       {/* <Test/> */}
-      <MainTest/>
+      {/* <TabCommonComponent/> */}
+      {/* <MainTest/> */}
+      {/* <MainFaqComponent/> */}
+      <GridComponent/>
     </div>
   );
 }
